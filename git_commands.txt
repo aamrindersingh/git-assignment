@@ -1,0 +1,47 @@
+Git Commands Used in This Assignment
+=====================================
+
+1. git init
+   Initializes a new empty Git repository in the current directory.
+
+2. git add <filename>
+   Stages the specified file(s) so they are included in the next commit.
+
+3. git commit -m "message"
+   Records the staged changes as a new commit with the given message.
+
+4. git branch feature
+   Creates a new branch named "feature" based on the current branch.
+
+5. git checkout feature
+   Switches the working directory to the "feature" branch.
+
+6. git checkout main
+   Switches back to the "main" branch.
+
+7. git merge feature
+   Merges all changes from the "feature" branch into the current branch (main).
+
+8. git log --oneline --graph --all
+   Displays a compact commit history with a visual graph of all branches.
+
+9. git status
+   Shows the current state of the working directory and staging area.
+
+10. git reset --soft HEAD~1
+    Undoes the last commit but keeps the changes staged in the working directory.
+
+11. git restore --staged <filename>
+    Removes the specified file from the staging area without discarding the changes.
+
+12. git restore <filename>
+    Discards uncommitted changes in the working directory for the specified file.
+
+13. git remote add origin <URL>
+    Links the local repository to a remote GitHub repository.
+
+14. git push -u origin main
+    Pushes the main branch to the remote repository and sets it as the upstream branch.
+
+15. git push origin feature
+    Pushes the feature branch to the remote repository.
